@@ -5,7 +5,7 @@ I'm learning Python and what better way to learn than by building some python pr
 ---
 ## **The 12 Projects**
 
-- [ ] [Madlibs](./madlibs)
+- [x] [Madlibs](./madlibs)
 - [ ] [Guess the Number - Computer](./guess-the-number-computer)
 - [ ] [Guess the Number - User](./guess-the-number-user)
 - [ ] [Rock Paper Scissors](./rock-paper-scissors)
