@@ -8,7 +8,7 @@ I'm learning Python and what better way to learn than by building some python pr
 - [x] [Madlibs](./madlibs)
 - [x] [Guess the Number - Computer](./guess_the_number)
 - [x] [Guess the Number - User](./guess_the_number)
-- [ ] [Rock Paper Scissors](./rock_paper_scissors)
+- [x] [Rock Paper Scissors](./rock_paper_scissors)
 - [ ] [Hangman](./hangman)
 - [ ] [Tic-Tac-Toe](./tic_tac_toe)
 - [ ] [Tic-Tac-Toe AI](./tic_tac_toe_ai)
