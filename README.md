@@ -12,7 +12,7 @@ I'm learning Python and what better way to learn than by building some python pr
 - [x] [Hangman](./hangman)
 - [x] [Tic-Tac-Toe](./tic_tac_toe)
 - [x] [Tic-Tac-Toe AI](./tic_tac_toe_ai)
-- [ ] [Binary Search](./binary_search)
+- [x] [Binary Search](./binary_search)
 - [ ] [Minesweeper](./minesweeper)
 - [ ] [Sudoku Solver](./sudoku_solver)
 - [ ] [Photo Manipulation](./photo_manipulation)
