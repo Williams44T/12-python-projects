@@ -54,7 +54,7 @@ class Mine_Sweeper:
     def dig_all(self) -> Mine_Sweeper:
         for r, row in enumerate(self.board):
             for c, col in enumerate(row):
-                self.dug.add((r, c))
+                self.dug.add((r, c)) if self.is_bomb(r, c) else self.sweep((r, c))
         return self
 
     def print(self) -> Mine_Sweeper:
@@ -88,7 +88,7 @@ def play() -> None:
         row: int
         col: int
         while not valid_location:
-            loc: str = input('Pick a location. Format is row,col (ex. 0,0): ').strip()
+            loc: List[str] = input('Pick a location. Format is row,col (ex. 0,0): ').strip().split(',')
             row = int(loc[0])
             col = int(loc[-1])
             if (game.is_valid_loc(row, col)): valid_location = True
@@ -97,6 +97,7 @@ def play() -> None:
         else:
             game.sweep((row, col))
             if len(game.dug) == size ** 2 - game.bomb_count: done = True
+        print('\n')
     
     game.dig_all().print()
     print('YOU HAVE WON') if safe else print('YOU HAVE LOST')

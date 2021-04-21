@@ -13,7 +13,7 @@ I'm learning Python and what better way to learn than by building some python pr
 - [x] [Tic-Tac-Toe](./tic_tac_toe)
 - [x] [Tic-Tac-Toe AI](./tic_tac_toe_ai)
 - [x] [Binary Search](./binary_search)
-- [ ] [Minesweeper](./minesweeper)
+- [x] [Minesweeper](./minesweeper)
 - [ ] [Sudoku Solver](./sudoku_solver)
 - [ ] [Photo Manipulation](./photo_manipulation)
 - [ ] [Markov Chain Text Composer](./markov_chain_text_composer)
